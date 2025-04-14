@@ -1,0 +1,60 @@
+.bigImg {
+    background-image: url('/img/contact.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 490px;
+
+    margin-bottom: 140px;
+}
+.bigImgCover {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(189, 149, 149, 0.614);
+}
+.bigImgText {
+    color: white;
+    font-size: 64px;
+}
+.dataContainer {
+    display: grid;
+    grid-template-columns: 20% 30% 30% 20%;
+}
+.left {
+    width: 50%;
+    height: 100%;
+    grid-column: 2;
+
+    font-weight: 400;
+}
+.right {
+    width: 50%;
+    height: 100%;
+    grid-column: 3;
+}
+.addressTitle, .doctorName {
+    font-size: 20px;
+    line-height: 1.4;
+    color: #2D2E33;
+}
+.address, .doctorDesc {
+    color: #6C6D74;
+    line-height: 1.74;
+    font-size: 15px;
+    
+    margin-bottom: 44px;
+}
+.address a {
+    text-decoration: none;
+    font-size: 15px;
+    color: #a02213;
+}
+.doctorPhone {
+    color: #a02213;
+    font-size: 15px;
+    line-height: 1.74;
+}

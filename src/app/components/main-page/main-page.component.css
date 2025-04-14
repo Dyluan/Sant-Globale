@@ -1,0 +1,102 @@
+.main {
+    background-image: url('../../../assets/img/bigImg.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+
+    height: 770px;
+    color: white;
+}
+.imgCover {
+    width: 750px;
+    /* background-color: rgba(162, 45, 33, 0.7); */
+    background-color: rgba(184, 39, 23, 0.7);
+    color: rgba(255,255,255,.7);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin-left: 40px;
+    
+    height: 100%;
+}
+.imgCover .title {
+    font-size: 36px;
+    font-weight: 400;
+    margin: 144px 115px 20px 115px;
+    color: white;
+}
+.text {
+    width: 450px;
+    line-height: 1.7;
+    font-size: 15px;
+}
+.rdvButton a {
+    text-decoration: none;
+    color: #B5B8B9;
+    font-weight: 400;
+    font-size: 15px;
+}
+.rdvButton {
+    background-color: white;
+    border: 1px solid white;
+    border-style: none;
+    border-radius: 18px;
+    padding: 10px 25px 10px 25px;
+    margin-top: 40px;
+}
+.rdvButton:hover {
+    background-color: #dcddde;
+}
+
+.servicesContainer {
+    background-color: white;
+    color: #2D2E33;
+    /* margin: 140px 0 0 110px; */
+    margin-top: 140px;
+    margin-bottom: 140px;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.imgContainer {
+    width: 630px;
+    height: 354px;
+}
+.imgContainer img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    /* rajouter une transition */
+}
+.right {
+    padding-top: 40px;
+}
+.right .title {
+    color: #2D2E33;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 1.4;
+    margin-bottom: 30px;
+    text-align: left;
+    margin-left: 0;
+}
+.services {
+    margin-left: 0;
+    color: #6C6D74;
+    font-size: 15px;
+    font-weight: 400;
+}
+.services ul {
+    column-count: 2;
+    column-gap: 40px;
+    list-style-type: none;
+    list-style: circle;
+    margin-left: -40px;
+}
+.services li {
+    break-inside: avoid;
+    margin-bottom: 15px;
+}
